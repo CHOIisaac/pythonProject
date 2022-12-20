@@ -2,7 +2,7 @@ import itertools
 import zipfile
 
 passwd_string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-zFile = zipfile.ZipFile(r'6.압축파일 암호푸는 프로그램\암호1234.txt.zip')
+zFile = zipfile.ZipFile(r'6. 압축파일 암호푸는 프로그램\암호1234.txt.zip')
 
 for len in range(1,6):
     to_attempt = itertools.product(passwd_string, repeat = len)
